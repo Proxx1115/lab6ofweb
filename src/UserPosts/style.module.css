@@ -1,0 +1,6 @@
+.UserPosts {
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+}

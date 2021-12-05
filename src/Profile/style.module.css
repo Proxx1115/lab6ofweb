@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300;400;700&display=swap");
+.Container {
+  width: 940px;
+  margin: 3rem auto 0 auto;
+  position: relative;
+  z-index: -1;
+}
+.Profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.CoverImg img {
+  width: 100%;
+  height: 348px;
+  border-radius: 0 0 10px 10px;
+}
+.ProfImg {
+  width: 168px;
+  height: 168px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 55%;
+}
+.ProfImg img {
+  width: 100%;
+  height: 100%;
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+.ProfName {
+  position: absolute;
+  font-size: 32px;
+  font-family: "Roboto Condensed", sans-serif;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 103.5%;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+}
+.ProfIcon {
+  position: absolute;
+  left: 53%;
+  top: 90%;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #e4e6eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+i {
+  font-size: 20px;
+  color: black;
+}
+.bio {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 115%;
+}
+.bio p {
+  color: #65676b;
+  font-size: 17px;
+}
+.fuk {
+  position: absolute;
+  left: 88%;
+  transform: translateX(-50%);
+  top: 80%;
+  display: flex;
+  width: 160px;
+  height: 36px;
+  background: #ffffff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.fuk i {
+  font-size: 16px;
+  margin-right: 5px;
+}
+.fuk p {
+  margin-top: 2px;
+  color: #050505;
+  font-size: 15px;
+  font-weight: 800;
+}
